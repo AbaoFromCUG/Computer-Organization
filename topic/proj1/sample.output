@@ -1,0 +1,175 @@
+Executing instruction at 00400000: 00420021
+	addu	$0, $2, $2
+New pc = 00400004
+No register was updated.
+No memory location was updated.
+
+Executing instruction at 00400004: 24830005
+	addiu	$3, $4, 5
+New pc = 00400008
+Updated r3 to 00000005
+No memory location was updated.
+
+Executing instruction at 00400008: 24e6fff8
+	addiu	$6, $7, -8
+New pc = 0040000c
+Updated r6 to fffffff8
+No memory location was updated.
+
+Executing instruction at 0040000c: 012a4023
+	subu	$8, $9, $10
+New pc = 00400010
+Updated r8 to 00000000
+No memory location was updated.
+
+Executing instruction at 00400010: 000c5b80
+	sll	$11, $12, 14
+New pc = 00400014
+Updated r11 to 00000000
+No memory location was updated.
+
+Executing instruction at 00400014: 00107c42
+	srl	$15, $16, 17
+New pc = 00400018
+Updated r15 to 00000000
+No memory location was updated.
+
+Executing instruction at 00400018: 02749024
+	and	$18, $19, $20
+New pc = 0040001c
+Updated r18 to 00000000
+No memory location was updated.
+
+Executing instruction at 0040001c: 32d50017
+	andi	$21, $22, 0x17
+New pc = 00400020
+Updated r21 to 00000000
+No memory location was updated.
+
+Executing instruction at 00400020: 3338ffe6
+	andi	$24, $25, 0xffe6
+New pc = 00400024
+Updated r24 to 00000000
+No memory location was updated.
+
+Executing instruction at 00400024: 039dd825
+	or	$27, $28, $29
+New pc = 00400028
+Updated r27 to 00404000
+No memory location was updated.
+
+Executing instruction at 00400028: 37fe0001
+	ori	$30, $31, 0x1
+New pc = 0040002c
+Updated r30 to 00000001
+No memory location was updated.
+
+Executing instruction at 0040002c: 3462fffc
+	ori	$2, $3, 0xfffc
+New pc = 00400030
+Updated r2 to 0000fffd
+No memory location was updated.
+
+Executing instruction at 00400030: 3c050006
+	lui	$5, 0x6
+New pc = 00400034
+Updated r5 to 00060000
+No memory location was updated.
+
+Executing instruction at 00400034: 0109382a
+	slt	$7, $8, $9
+New pc = 00400038
+Updated r7 to 00000000
+No memory location was updated.
+
+Executing instruction at 00400038: 114b0001
+	beq	$10, $11, 0x00400040
+New pc = 00400040
+No register was updated.
+No memory location was updated.
+
+Executing instruction at 00400040: 114b0000
+	beq	$10, $11, 0x00400044
+New pc = 00400044
+No register was updated.
+No memory location was updated.
+
+Executing instruction at 00400044: 15f00001
+	bne	$15, $16, 0x0040004c
+New pc = 00400048
+No register was updated.
+No memory location was updated.
+
+Executing instruction at 00400048: 1400ffef
+	bne	$0, $0, 0x00400008
+New pc = 0040004c
+No register was updated.
+No memory location was updated.
+
+Executing instruction at 0040004c: 27bdffe8
+	addiu	$29, $29, -24
+New pc = 00400050
+Updated r29 to 00403fe8
+No memory location was updated.
+
+Executing instruction at 00400050: afb40014
+	sw	$20, 20($29)
+New pc = 00400054
+No register was updated.
+Updated memory at address 00403ffc to 00000000
+
+Executing instruction at 00400054: afb5ffec
+	sw	$21, -20($29)
+New pc = 00400058
+No register was updated.
+Updated memory at address 00403fd4 to 00000000
+
+Executing instruction at 00400058: 8fb60014
+	lw	$22, 20($29)
+New pc = 0040005c
+Updated r22 to 00000000
+No memory location was updated.
+
+Executing instruction at 0040005c: 8fb7ffec
+	lw	$23, -20($29)
+New pc = 00400060
+Updated r23 to 00000000
+No memory location was updated.
+
+Executing instruction at 00400060: 0810001c
+	j	0x00400070
+New pc = 00400070
+No register was updated.
+No memory location was updated.
+
+Executing instruction at 00400070: 0c10001e
+	jal	0x00400078
+New pc = 00400078
+Updated r31 to 00400074
+No memory location was updated.
+
+Executing instruction at 00400078: 0c100019
+	jal	0x00400064
+New pc = 00400064
+Updated r31 to 0040007c
+No memory location was updated.
+
+Executing instruction at 00400064: 2411ffff
+	addiu	$17, $0, -1
+New pc = 00400068
+Updated r17 to ffffffff
+No memory location was updated.
+
+Executing instruction at 00400068: afb10000
+	sw	$17, 0($29)
+New pc = 0040006c
+No register was updated.
+Updated memory at address 00403fe8 to ffffffff
+
+Executing instruction at 0040006c: 03a00008
+	jr	$29
+New pc = 00403fe8
+No register was updated.
+No memory location was updated.
+
+Executing instruction at 00403fe8: ffffffff
